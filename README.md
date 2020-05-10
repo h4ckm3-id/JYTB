@@ -28,7 +28,7 @@ This is Fork version by h4ckm3-id for linux and firefox driver only.
 ### Running App 
 Type on console : 
 ```console
-~$ wget https://raw.githubusercontent.com/triippz-tech/JYTB/JYTB-Linux-Firefox/run.sh
+~$ wget https://raw.githubusercontent.com/h4ckm3-id/JYTB/JYTB-Linux-Firefox/run.sh
 ~$ chmod +x run.sh
 ~$ ./run.sh
 ```
