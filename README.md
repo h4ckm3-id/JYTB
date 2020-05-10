@@ -13,22 +13,36 @@
 JYTB is a multi-threaded Java application, which "views" a given YouTube video. The bot auto-rotates proxies if a proxy
 has been determined to be dead, compromised, or the bot has finished watching the video. The goal is to provide unique 
 views to a YouTube video.
-<p align="center"><img width=95% src="https://triippz-tech.github.io/JYTB/images/run-example.png"></p>
+<p align="center"><img width=95% src="https://i.ibb.co/4WkHBWP/jytb01.jpg"></p>
+<p align="center"><img width=95% src="https://i.ibb.co/fqDWn31/jytb02.jpg"></p>
 
 <br>
 
 ## Current State
-The current state of this project is "In Development". The core features of the bot are functional, but there are bugs
-and issues which still need to be ironed out. The project should have it's first initial release sometime in July.
+This is Fork version by h4ckm3-id for linux and firefox driver only.
 
-## Running the App
-TDB - Will update upon first release
+## Features 
+- Paid Proxy using APIKEY from pubproxy.com.
+- Free Proxy using lib from https://github.com/scidam/proxy-list.
+
+### Running App 
+Type on console : 
+```console
+~$ wget https://raw.githubusercontent.com/triippz-tech/JYTB/JYTB-Linux-Firefox/run.sh
+~$ chmod +x run.sh
+~$ ./run.sh
+```
+++Wait the Script install all Dependencies and Start the bot for you :) ez life .++
+
+# Screenshot App Run on 6 vps linux  
+<p align="left"><img width=50% src="https://i.ibb.co/b3vKp6k/SS0594.jpg"></p>
+
+# Screenshot Traffic from yt video analystic
+<p align="left"><img width=50% src="https://i.ibb.co/rfZFKfK/SS0595.jpg"></p>
 
 ## Contributing
 Please take a look at our [contributing](https://github.com/triippz-tech/JYTB/blob/master/docs/CONTRIBUTING.md) guidelines if you're interested in helping!
 #### Pending Features
-- Free Proxy Options
-- Paid Proxy Options
 - Headless or Head Mode
 - Platform Independence
 - Auto-installation of proper drivers
@@ -39,24 +53,3 @@ Please take a look at our [contributing](https://github.com/triippz-tech/JYTB/bl
     - Edge
     - Safari
 - User-determined watch lengths for bots
-
-### Running App fork vesion by h4ckm3-id on linux ubuntu with command line (not packaged version)
-Type on console : 
-```console
-~$ wget https://raw.githubusercontent.com/h4ckm3-id/JYTB/JYTB-Linux-Firefox/run.sh
-~$ chmod +x run.sh
-~$ ./run.sh
-```
-++Wait the Script install all Dependencies and Start the bot for you :) ez life .++
-- paste url video.
-- choose using free proxy or paid. free get 5 proxies from pubproxies,, paid get 20 proxies for rotating.it will updated to new proxies every all proxies already used.
-- if you using paid options, paste APIKEY pubproxy.
-- choose firefox for driver.
-- choose duration.
-- choose threads.
-- done.
-# Screenshot App Run on 6 vps linux  
-<p align="left"><img width=50% src="https://i.ibb.co/b3vKp6k/SS0594.jpg"></p>
-
-# Screenshot Traffic from yt video analystic
-<p align="left"><img width=50% src="https://i.ibb.co/rfZFKfK/SS0595.jpg"></p>
