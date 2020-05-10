@@ -5,7 +5,7 @@ read -p ".." -t 0.5
 read -p ".." -t 0.5
 echo -e "\e[0m"
 sudo apt update &&
-echo -e "\e[92mInstalling all Depencies"
+echo -e "\e[92mInstalling Depedencies"
 read -p ".." -t 0.5 
 read -p ".." -t 0.5
 read -p ".." -t 0.5
@@ -15,10 +15,10 @@ wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodrive
 tar -xvzf geckodriver* &&
 chmod +x geckodriver &&
 mv geckodriver /usr/local/bin/ &&
-git clone -b JYTB-Linux-Firefox https://github.com/h4ckm3-id/JYTB.git bot &&
+wget https://github.com/h4ckm3-id/JYTB/releases/download/1.0.0/JYTB.jar &&
 echo -e "\e[92mRunning the BOT"
 read -p ".." -t 0.5 
 read -p ".." -t 0.5
 read -p ".." -t 0.5
 echo -e "\e[0m"
-cd bot && exec mvn compile exec:java -Dexec.mainClass="com.triippztech.app.App"
+exec java -jar JYTB.jar
